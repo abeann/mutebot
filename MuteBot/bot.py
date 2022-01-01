@@ -49,4 +49,4 @@ async def on_raw_reaction_remove(payload):
             member = await message.author.guild.fetch_member(key)
             await member.edit(mute=False)
 
-bot.run('Nzc2NTcxODgwMTk0NTcyMjg4.X6207A.QztjBhdzA1dFSWyKXFPykE1B_zU')
+bot.run('token')
